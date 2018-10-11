@@ -47,6 +47,7 @@ xdot callgraph.dot
 ~~~
 
 The above command will output the following call graph,
+
 ![cg1](./test1.png  "call graph of test1.c")
 
 it is not accurate, since the opt tool can noly process the directly call.
