@@ -14,6 +14,10 @@ Generate call graph of c program from its corresponding LLVM IR
 	  -e, --externalNode    make call graph with external node
 	  -s, --show            show the call graph using xdot
 	  
+#Dependency
+First, you should install **clang** and **LLVM**, such that you can get the IR file.
+Second, to show the call graph by '-s', you should install **xdot** and **graphviz**.
+	  
 # example
 If we want to get the call graph of the following c program,
 
