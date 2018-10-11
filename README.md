@@ -43,4 +43,5 @@ The above command will output the following call graph,
 
 it is not accurate, since the opt tool can noly process the directly call.
 However, when using OverCG, we can get the following call graph,
+
 ![cg2](./test11.png  "call graph of test1.c")
